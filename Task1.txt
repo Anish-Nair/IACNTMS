@@ -1,0 +1,10 @@
+1)Identify a cmdlet that produces a random number
+get-random
+2)Identify a cmdlet that dislays the current date and time
+get-date
+3)What type of object the cmdlet from task 2 produce?
+System.DateTime
+4) Identify a cmdlet that dislay information about installed hotfixes on windows
+Get-Hotfix
+5)Display a list of 50 newest entries from security log
+Get-EventLog -LogName Security -Newest 50
