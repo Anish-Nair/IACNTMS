@@ -1,0 +1,8 @@
+1)
+Get-ChildItem C:\Windows | where {$_.name -contains '\w\d{2}' }
+
+2)
+Get-ChildItem C:\Windows\Logs -Recurse | Select-String -Pattern "installing" |ft
+
+4)
+'anish.nair@gmail.com' -match '\w{1}\.\w+@gmail\.com' 
